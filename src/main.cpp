@@ -604,6 +604,7 @@ void loop() {
             menuItems.at(index).action(); // Call the action associated with the selected menu item
             tft->drawPixel(0, 0, 0);
             tft->fillScreen(BGCOLOR);
+            first_loop = true;
             pass_by = 0;
             returnToMenu = false;
             redraw = true;
@@ -629,6 +630,7 @@ void loop() {
                     }
                     tft->drawPixel(0, 0, 0);
                     tft->fillScreen(BGCOLOR);
+                    first_loop = true;
                     pass_by = 0;
                     returnToMenu = false;
                     redraw = true;

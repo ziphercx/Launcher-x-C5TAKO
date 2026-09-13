@@ -136,6 +136,7 @@
             - { env: "xteink-x3-x4"               }
             - { env: "xteink-x4pro"               }
             - { env: "xueersi-xiaomiao"           }
+            # - { env: "c5tako" } # Experimental; enable after validation.
 
       steps:
           - uses: actions/checkout@v5
